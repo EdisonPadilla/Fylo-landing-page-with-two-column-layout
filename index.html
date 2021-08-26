@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style-index.css" />
+
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+  </head>
+  <body>
+    <main>
+      <article class="navbar-container">
+        <figure class="navbar-logo-box">
+          <img class="logo" src="./images/logo.svg" alt="Fylo" />
+        </figure>
+        <ul class="navigation-link-box">
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Sign In</a></li>
+        </ul>
+      </article>
+      <article class="intro-container">
+        <section>
+          <figure class="illustration-box">
+            <img
+              class="illustration-size"
+              src="./images/illustration-1.svg"
+              alt="introductory image"
+            />
+          </figure>
+        </section>
+        <section class="intro-container-text">
+          <h1 class="title-style">
+            All your files in one secure location, accessible anywhere.
+          </h1>
+          <p class="intro-paragraph">
+            Fylo stores your most important files in one secure location. Access
+            them wherever you need, share and collaborate with friends, family,
+            and co-workers.
+          </p>
+          <form action="">
+            <input
+              type="email"
+              class="form-control input-email"
+              id="inputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter your email"
+              required
+            />
+            <button class="button-getstarted">Get Started</button>
+          </form>
+        </section>
+      </article>
+      <article class="stayproductive-container">
+        <div class="bg-curve"></div>
+        <figure class="illustration-box">
+          <img
+            class="illustration-size"
+            src="./images/illustration-2.svg"
+            alt="Stay productive, wherever you are"
+          />
+        </figure>
+        <section class="stayproductive-textcontent-box">
+          <h3 class="title-style">Stay productive, wherever you are</h3>
+          <p class="stayproductive-textcontent-paragraph">
+            Never let location be an issue when accessing your files. Fylo has
+            you covered for all of your file storage needs.
+            <br />
+            <br />
+            Securely share files and folders with friends, family and colleagues
+            for live collaboration. No email attachments required!
+          </p>
+          <a class="fyloworks-link-box" href="#">
+            <figure>
+              <figcaption>See how Fylo works</figcaption>
+              <img src="./images/icon-arrow.svg" alt="" />
+            </figure>
+          </a>
+          <div class="stayproductive-testimonial-box">
+            <figure class="icon-quotes-box">
+              <img src="./images/icon-quotes.svg" alt="Quotes symbol" />
+            </figure>
+            <p class="stayproductive-testimonial-paragraph">
+              Fylo has improved our team productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
+            </p>
+            <figure class="profileperson-testimonial-box">
+              <img
+                class="profileperson-photo"
+                src="./images/avatar-testimonial.jpg"
+                alt="Avatar of the person of the testimony "
+              />
+              <figcaption>
+                <p class="profileperson-name">Kyle Burton</p>
+                <p class="profileperson-position">Founder & CEO, Huddle</p>
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+      </article>
+      <article class="earlyaccess-container">
+        <div class="earlyaccess-content-text">
+          <h3 class="earlyaccess-title title-style">Get early access today</h3>
+          <p class="earlyaccess-paragraph">
+            It only takes a minute to sign up and our free starter tier is
+            extremely generous. If you have any questions, our support team
+            would be happy to help you.
+          </p>
+        </div>
+        <form class="earlyaccess-form" action="">
+          <input
+            type="email"
+            class="form-control input-email"
+            id="inputEmail2"
+            aria-describedby="emailHelp"
+            placeholder="Enter your email"
+            required
+          />
+          <button class="button-getstarted">Get Started For Free</button>
+        </form>
+      </article>
+      <article class="company-data-container">
+        <figure class="company-data-logo-box">
+          <img
+            class="company-data-logo"
+            src="./images/logo-white.svg"
+            alt="Fylo"
+          />
+        </figure>
+        <section class="data-lists-box">
+          <ul class="data-list-style" id="data-list1">
+            <li>
+              <figure>
+                <ion-icon name="call"></ion-icon>
+                <figcaption>
+                  <a href="tel:+1-543-123-4567">Phone: +1-543-123-4567</a>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <ion-icon name="mail"></ion-icon>
+                <figcaption>
+                  <a href="mailto:example@fylo.com">example@fylo.com</a>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+          <ul class="data-list-style" id="data-list2">
+            <li><a href="">About Us</a></li>
+            <li><a href="">Jobs</a></li>
+            <li><a href="">Press</a></li>
+            <li><a href="">Blog</a></li>
+          </ul>
+          <ul class="data-list-style" id="data-list3">
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Terms</a></li>
+            <li><a href="">Privacy</a></li>
+          </ul>
+          <ul class="data-list-style" id="data-list4">
+            <li>
+              <a href=""><ion-icon name="logo-facebook"></ion-icon></a>
+            </li>
+            <li>
+              <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
+            </li>
+            <li>
+              <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </main>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/EdisonPadilla" target="_blank"
+          >Edison Padilla</a
+        >.
+      </p>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
